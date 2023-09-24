@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 
 import { AppProvider } from "./context/AppContext";
 import Budget from "./components/Budget";
@@ -8,6 +9,7 @@ import ExpenseList from "./components/ExpenseList";
 import AllocationForm from "./components/AllocationForm";
 import RemainingBudget from "./components/Remaining";
 import Currency from "./components/Currency";
+import "./App.css";
 
 const App = () => {
   return (

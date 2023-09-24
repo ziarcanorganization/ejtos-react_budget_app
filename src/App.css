@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.dropdown-menu {
+  background-color: lightgreen;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:checked,
+.btn-check,
+.btn.show {
+  background-color: lightgreen;
+  border: none;
+}
